@@ -1,0 +1,88 @@
+body {
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.page-title {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  font-weight: 600;
+}
+
+#menu-section {
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin-bottom: 60px;
+}
+
+.section-heading,
+.menu-body {
+  background: grey;
+  color: #fff;
+}
+
+/* Heading bar */
+.section-heading {
+  margin: 0;
+  padding: 16px 22px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 6px 6px 0 0;
+  letter-spacing: .5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.18);
+  border: 1px solid grey;
+  border-bottom: none;
+}
+
+/* Paragraph container */
+.menu-body {
+  border: 1px solid grey;
+  border-top: none;
+  padding: 28px 32px 55px;
+  border-radius: 0 0 6px 6px;
+  min-height: 480px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.menu-body p + p {
+  margin-top: 18px;
+}
+
+/* Mobile menu styling */
+#mobile-menu .nav > li > a {
+  font-weight: 600;
+  border-top: 1px solid #000;
+  padding: 10px 15px;
+  background: #fff;
+}
+#mobile-menu .nav > li:last-child > a {
+  border-bottom: 1px solid #000;
+}
+#mobile-menu .nav > li > a:hover,
+#mobile-menu .nav > li > a:focus {
+  background: #f2f2f2;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.navbar-toggle {
+  border: 1px solid #333;
+  margin-right: 15px;
+}
+.navbar-toggle .icon-bar {
+  background: #333;
+}
+
+@media (max-width: 479px) {
+  .menu-body {
+    padding: 22px 20px 45px;
+  }
+}
